@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Frontend build/cache output
+build/
+dist/
+out/
+frontend/build/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/coverage/
+
+# Backend build/output
+backend/build/
+backend/obj/
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Runtime data
+backend/db/*.db
+*.log
+*.err
+
+# Test/coverage output
+coverage/
+.nyc_output/
+
+# Package manager caches and debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.yarn-integrity
+*.tgz
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake generated files, but keep source build configs
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!backend/CMakeLists.txt

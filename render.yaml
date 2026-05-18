@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: graph-analyse-api
+    env: docker
+    plan: free
+    dockerContext: ./backend
+    dockerfilePath: ./backend/Dockerfile
+    healthCheckPath: /health

@@ -1,0 +1,10 @@
+build/
+obj/
+db/*.db
+*.exe
+*.out
+*.o
+*.obj
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
